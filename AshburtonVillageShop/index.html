@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="announcement">
+        <p>Local Craft Beers &nbsp;·&nbsp; Bread, Milk & Eggs &nbsp;·&nbsp; Tea and Coffee &nbsp;·&nbsp; Food to Go, Hot
+            & Cold</p>
+    </div>
+
+    <nav>
+        <div class="logo">Ashburton <em>Village</em> Store</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#stock">What We Sell</a></li>
+            <li><a href="#visit">Visit</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Get in Touch</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tag">21 Ashburton Road · Gosforth · Newcastle</p>
+            <h1>Local Produce<br><em>& More.</em></h1>
+            <p class="hero-sub">Gosforth's neighbourhood store. By the people, for the people.</p>
+            <div class="hero-btns">
+                <button class="btn-light"
+                    onclick="document.getElementById('stock').scrollIntoView({behavior:'smooth'})">See What We
+                    Stock</button>
+                <button class="btn-outline"
+                    onclick="document.getElementById('visit').scrollIntoView({behavior:'smooth'})">Opening Hours
+                    &rarr;</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-placeholder">
+                <span>Photo coming soon</span>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section class="weekly fade-in" id="weekly">
+        <div class="weekly-inner">
+            <div>
+                <div class="weekly-label">Weekly Highlights</div>
+                <h2>What's in<br>this week</h2>
+                <p class="weekly-sub">This week, Pink Lane Bakery in store now.</p>
+            </div>
+            <div>
+                <div class="weekly-grid">
+                    <div class="weekly-item">
+                        <img src="https://picsum.photos/400/160" alt="Tyne Bank Blonde" class="weekly-img">
+                        <div class="weekly-item-label">Drinks</div>
+                        <h4>Tyne Bank Blonde</h4>
+                        <p>Fresh stock from the Newcastle brewery. Light, crisp, local.</p>
+                    </div>
+                    <div class="weekly-item">
+                        <img src="https://picsum.photos/400/160" alt="Early Season Strawberries"
+                            class="weekly-img">
+                        <div class="weekly-item-label">Produce</div>
+                        <h4>Early Season Strawberries</h4>
+                        <p>In from a North East grower. Limited quantities.</p>
+                    </div>
+                    <div class="weekly-item">
+                        <img src="https://picsum.photos/400/160" alt="Northumbrian Honey"
+                            class="weekly-img">
+                        <div class="weekly-item-label">Pantry</div>
+                        <h4>Northumbrian Honey</h4>
+                        <p>Local wildflower honey. Back in stock this week.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="weekly-note">* Stock changes weekly. Pop in to see the full range or ask us what's just arrived.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <section class="about fade-in" id="about">
+        <div class="about-left">
+            <div class="label">Our Story</div>
+            <h2>A store that<br><em>knows you</em></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident.</p>
+        </div>
+        <div class="about-right">
+            <div class="stat">
+                <div class="stat-num">7</div>
+                <div class="stat-label">Days a Week</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">8am</div>
+                <div class="stat-label">Weekday Opening</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">Local</div>
+                <div class="stat-label">Producers Stocked</div>
+            </div>
+            <div class="stat">
+                <div class="stat-num">NE3</div>
+                <div class="stat-label">Gosforth's Own</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stock fade-in" id="stock">
+        <div class="stock-head">
+            <div>
+                <div class="label">What We Sell</div>
+                <h2>Everything you need</h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+        <div class="stock-grid">
+            <div class="stock-card">
+                <div class="stock-num">01</div>
+                <h3>Grocery & Daily Essentials</h3>
+                <p>Everything you'd expect from a well-stocked corner shop, kept fresh and always available.</p>
+                <span class="stock-tag">Daily Stock</span>
+            </div>
+            <div class="stock-card">
+                <div class="stock-num">02</div>
+                <h3>Local Beers & Spirits</h3>
+                <p>Supporting North East breweries and distilleries. New lines arriving regularly.</p>
+                <span class="stock-tag">North East</span>
+            </div>
+            <div class="stock-card">
+                <div class="stock-num">03</div>
+                <h3>Fresh Produce</h3>
+                <p>Fruit, vegetables and fresh goods. Sourced locally where possible, restocked every morning.</p>
+                <span class="stock-tag">Fresh Daily</span>
+            </div>
+            <div class="stock-card">
+                <div class="stock-num">04</div>
+                <h3>Newspapers & Snacks</h3>
+                <p>Your morning paper, magazines, confectionery and snacks. The corner shop classics.</p>
+                <span class="stock-tag">Every Day</span>
+            </div>
+            <div class="stock-card">
+                <div class="stock-num">05</div>
+                <h3>Parcel Collection</h3>
+                <p>Authorised UPS and DPD drop-off and collection point. Pick up while you shop.</p>
+                <span class="stock-tag">UPS · DPD</span>
+            </div>
+            <div class="stock-card">
+                <div class="stock-num">06</div>
+                <h3>And Much More</h3>
+                <p>Come in and see. We've been surprising regulars for years and we're not stopping now.</p>
+                <span class="stock-tag">Always Stocked</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="visit fade-in" id="visit">
+        <div class="visit-label">Find Us</div>
+        <h2>Come and visit</h2>
+        <div class="visit-grid">
+            <div class="visit-block">
+                <h3>Opening Hours</h3>
+                <p>Monday – Friday<br><strong>8:00am – 5:30pm</strong></p>
+                <p style="margin-top:0.9rem">Saturday<br><strong>8:00am – 3:00pm</strong></p>
+                <p style="margin-top:0.9rem">Sunday<br><strong>8:00am – 12:00pm</strong></p>
+            </div>
+            <div class="visit-block">
+                <h3>Address</h3>
+                <p>21 Ashburton Road<br>Gosforth<br>Newcastle Upon Tyne<br>NE3 4XN</p>
+                <p style="margin-top:1.2rem"><a href="#">Get directions &rarr;</a></p>
+            </div>
+            <div class="visit-block">
+                <h3>Follow Along</h3>
+                <p>We post updates, new stock and the occasional offer on Facebook. Worth a follow if you're local.</p>
+                <p style="margin-top:1.2rem"><a href="#">Facebook Page &rarr;</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact fade-in" id="contact">
+        <div class="contact-inner">
+            <div class="contact-left">
+                <div class="label">Get in Touch</div>
+                <h2>Get in contact</h2>
+                <p>Want to be a supplier? Got a question about what we stock? Want to know if something's coming in?
+                    Just ask we can answer any queries.</p>
+                <div class="blockquote">
+                    <p>"We've been on this corner a long time. Always good to hear from the neighbourhood."</p>
+                </div>
+            </div>
+            <form class="form" onsubmit="return false">
+                <div class="form-row">
+                    <div class="fg"><label>First Name</label><input type="text" placeholder="John"></div>
+                    <div class="fg"><label>Last Name</label><input type="text" placeholder="Smith"></div>
+                </div>
+                <div class="fg"><label>Email</label><input type="email" placeholder="john@example.com"></div>
+                <div class="fg">
+                    <label>Subject</label>
+                    <select>
+                        <option>Stock Enquiry</option>
+                        <option>Parcel Services</option>
+                        <option>General Question</option>
+                        <option>Something Else</option>
+                    </select>
+                </div>
+                <div class="fg"><label>Message</label><textarea placeholder="What would you like to know?"></textarea>
+                </div>
+                <button type="submit" class="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-logo">Ashburton Village Store</div>
+        <p>&copy; 2026 &nbsp;·&nbsp; 21 Ashburton Road, Gosforth, NE3 4XN</p>
+        <div class="footer-links">
+            <a href="#">Facebook</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
